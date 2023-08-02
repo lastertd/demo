@@ -1,0 +1,15 @@
+[class^="sss-"] {
+    desc: "这里是为了避免vite样式影响而设置的样式，请忽略此项";
+    line-height: 1 !important;
+}
+
+.vitepress-demo-preview-source div {
+    background: rgb(63, 54, 56) !important;
+    border-radius: 7px!important;
+
+}
+
+html[class="dark"] .vitepress-demo-preview-source div {
+    background: var(--sss-color-black-dark) !important;
+}
+
